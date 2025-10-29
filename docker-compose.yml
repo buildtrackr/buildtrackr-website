@@ -1,0 +1,6 @@
+services:
+  buildtrackr-website:
+    build: .
+    container_name: buildtrackr-website
+    ports:
+      - 8080:8080
